@@ -60,6 +60,6 @@ class BexioService
 ## License
 This bundle is under the MIT license. See the complete license in the bundle:
 
-    LICENSE
+    Resources/meta/LICENSE
 
 
