@@ -1,0 +1,33 @@
+{
+  "name": "fatpanda-gmbh/bexio-connector-bundle",
+  "type": "symfony-bundle",
+  "version": "0.1.1",
+  "description": "This bundle wraps the fatpanda-gmbh/bexio-connector library for symfony apps",
+  "keywords": ["bexio", "symfony"],
+  "homepage": "https://github.com/fatpanda-gmbh/bexio-connector-bundle",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Steven Wüthrich",
+      "email": "steven@fatpanda.io"
+    },
+    {
+      "name": "Vadim Serdunich",
+      "email": "symphonyviolist51@gmail.com"
+    },
+    {
+      "name": "Additional contributors",
+      "homepage": "https://github.com/fatpanda-gmbh/bexio-connector-bundle/graphs/contributors"
+    }
+  ],
+  "require": {
+    "php": ">=7.1",
+    "fatpanda-gmbh/bexio-connector": "^0.1.1",
+    "symfony/framework-bundle": "^3.4 || ^4.2 || ^5.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Fatpanda\\BexioConnectorBundle\\": "src"
+    }
+  }
+}

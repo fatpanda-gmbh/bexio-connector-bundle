@@ -1,0 +1,5 @@
+services:
+    bexio_connector:
+        class: Fatpanda\BexioConnector\BexioConnector
+        calls:
+            - [setLogger, ['@logger']]
